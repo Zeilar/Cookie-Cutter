@@ -1,5 +1,5 @@
 {
-  "name": "cookie-cutter",
+  "name": "cookie-cutter-helpers",
   "version": "1.0.0",
   "description": "Helper functions for handling cookies.",
   "main": "index.js",
@@ -18,7 +18,7 @@
     "getter",
     "setter"
   ],
-  "author": "Philip Angelin",
+  "author": "philip_angelin@hotmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Zeilar/Cookie-Cutter/issues"

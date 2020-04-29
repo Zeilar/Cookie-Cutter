@@ -29,3 +29,5 @@ class CookieCutter {
 		}
 	}
 }
+
+export default new CookieCutter();
