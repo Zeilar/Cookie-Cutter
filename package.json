@@ -1,0 +1,27 @@
+{
+  "name": "cookie-cutter",
+  "version": "1.0.0",
+  "description": "Helper functions for handling cookies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeilar/Cookie-Cutter.git"
+  },
+  "keywords": [
+    "cookie",
+    "helper",
+    "function",
+    "class",
+    "getter",
+    "setter"
+  ],
+  "author": "Philip Angelin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zeilar/Cookie-Cutter/issues"
+  },
+  "homepage": "https://github.com/Zeilar/Cookie-Cutter#readme"
+}
