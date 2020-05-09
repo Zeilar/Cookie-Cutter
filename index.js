@@ -1,13 +1,13 @@
 class CookieCutter {
-	removeCookie(key) {
+	delete(key) {
 		document.cookie = `${key}=; expires=${new Date(0).toUTCString()}; path=/`;
 		return `${key}=; expires=${new Date(0).toUTCString()}; path=/`;
 	}
 
-	setCookie(key, value, expiration = null, path = 'path=/') {
+	set(key, value, expiration = null, path = 'path=/') {
 		let cookie = [`${key}=${value}`];
 		if (expiration === null) {
-			let date = moment().add("days", 7);
+			let date = moment().add('days', 7);
 			expiration = date.toDate();
 		} else if (expiration) {
 			cookie.push('expires=' + expiration);
@@ -19,7 +19,7 @@ class CookieCutter {
 		return cookie;
 	}
 
-	getCookie(key) {
+	get(key) {
 		let regex = new RegExp(`${key}=([^;]*);`, 'i');
 		let match = document.cookie.match(regex);
 		if (match !== null) {
