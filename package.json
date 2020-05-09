@@ -1,6 +1,6 @@
 {
   "name": "cookie-cutter-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper functions for handling cookies.",
   "main": "index.js",
   "scripts": {
